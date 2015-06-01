@@ -1,0 +1,16 @@
+PODS:
+  - ActionSheetPicker-3.0 (1.6.2)
+  - FSInteractiveMap (0.1.0)
+  - SwipeView (1.3.2)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 1.6.1)
+  - FSInteractiveMap (~> 0.1)
+  - SwipeView (~> 1.3.2)
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: cc9f90ae785070623e9b972270013c3242190fb0
+  FSInteractiveMap: 43a8d1388056b21da95194528fc37e222c7dad50
+  SwipeView: bd67cfaf7760c036438446b3ccb28a3b84fce009
+
+COCOAPODS: 0.37.1

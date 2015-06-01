@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009D9D19FCD09312DB726A54 /* FSSVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 2681AAB7231BDD08B0D37BCA /* FSSVG.h */; };
+		049D3917325EE5297C241911 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8298112FA89453412F3FA /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1E11F041FDEEDE8D892046E0 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE67F19B4798677D1B595A8 /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1E147D508835402FCC40B86E /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E09BEAF0506D321EA6D1CDB /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		200603497D15AB9F1EFD4E37 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E20859FEA1D6E205C12B43 /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		25A566A68607D50704D9AC6D /* FSSVGPathElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 35420585B15E0FD064805990 /* FSSVGPathElement.h */; };
+		3553DBD15719EE06C2E5FCD7 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224BFB78C574243596FCD98 /* SwipeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		39232305D548C380730D0D2F /* Pods-FSInteractiveMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4A91597BDA87C2950E157 /* Pods-FSInteractiveMap-dummy.m */; };
+		4629264B09C5F2CC947BE55B /* FSSVGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B26C0B5D5F2090FFC84A8D /* FSSVGUtils.h */; };
+		4EACDB2C442BAFACB0020B9B /* FSInteractiveMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9960FA7BB85B82D6EFEC38D /* FSInteractiveMapView.m */; };
+		5075578898AD700EB1C60AF2 /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C8708A90B134B2D6F85A840C /* ActionSheetCustomPickerDelegate.h */; };
+		52C932FDADE8B6491DAE0AB1 /* SwipeView.h in Headers */ = {isa = PBXBuildFile; fileRef = D59B79B2B3D7E5C7D9A8A651 /* SwipeView.h */; };
+		5425BADCE7840C79A38D13B5 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA1670FB7E86A5EEE09920 /* Pods-dummy.m */; };
+		5D1B91181E44E72F895E5BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CE9F04181D9FEECC7FBE74 /* Foundation.framework */; };
+		67F12A07A10A62812A5588F3 /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 290A144AEDE0A9B821B1C887 /* ActionSheetDatePicker.h */; };
+		6941A16F9F56305358D0CF2E /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D60E8322C652161F4422F0D /* SWActionSheet.h */; };
+		6E44103D760157126370DAAE /* FSSVGPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B19343F7E26D81AFE466813E /* FSSVGPathElement.m */; };
+		6EAE7A721A938109F38A252E /* Pods-ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 664133AC0E73BCC4E6E42AB5 /* Pods-ActionSheetPicker-3.0-dummy.m */; };
+		833F08BA4760E35D9469A350 /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 344465056E537108D044A31F /* ActionSheetLocalePicker.h */; };
+		88DC87985CCCAB551394FB01 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DD429E3D6C593C915C2F0A04 /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		89716F8D941129EAD822BA92 /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F435C57457EAC1B3BF9C49C /* DistancePickerView.h */; };
+		8A9992757C3B7A9A602D817B /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446B7591DE56D684F4BB6EB2 /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8BBE24ACF7F18D69E69D37BD /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E793AA4E42D15DF6FC770BE /* ActionSheetCustomPicker.h */; };
+		ABDA62E1E0CD39469FA20AB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125C67B6B2F47D855C5C7D8D /* UIKit.framework */; };
+		BB2AFFCB3EDCFC72E57F8FF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CE9F04181D9FEECC7FBE74 /* Foundation.framework */; };
+		BB89263864C63D1549FB97D6 /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E105F9AFF605A8942869C42 /* ActionSheetStringPicker.h */; };
+		BBC5080DFABBAA7A901AFDE9 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1EA964980E3C5D00D54C78 /* AbstractActionSheetPicker.h */; };
+		BF6D4F2081DF59792AA1C528 /* FSSVGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E643E3E5E1C51E55EF6EEC /* FSSVGUtils.m */; };
+		C4BA4C2B3CE05B294A992BE5 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F86242175A20713C0EBD897E /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9D7D555E8B173E290052F95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CE9F04181D9FEECC7FBE74 /* Foundation.framework */; };
+		E0F17CAAB48997DFA2D4765D /* Pods-SwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7805020EFB596E9EF98211F /* Pods-SwipeView-dummy.m */; };
+		E381ADCBC50FD44DD21175B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CE9F04181D9FEECC7FBE74 /* Foundation.framework */; };
+		E73DFF7BC3621178670B061A /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = A4564DD5E32E028BEC429B0F /* ActionSheetPicker.h */; };
+		E9215C35443590CAB3576460 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C332F9C265C5EA3466E0FEFB /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ED09EBFBE4DB163E4B176281 /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 29541FA83C70C1AA0B697FFC /* ActionSheetDistancePicker.h */; };
+		F0FD20FC36451872B704508E /* FSSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B3D853A5EFAF6A7CF03DE8 /* FSSVG.m */; };
+		FDF1D1F9236E6D588C5A3851 /* FSInteractiveMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9905C8FD7D5E684431BF9D7F /* FSInteractiveMapView.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42A6AA5F99B396827D9C30CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B977BEB39FE5487158AFF9D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A66F2CCF3EAC540F9EFE45A;
+			remoteInfo = "Pods-SwipeView";
+		};
+		8B06713DBFCC351F963E6210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B977BEB39FE5487158AFF9D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DEEA7B000DBA60F9C4135B4;
+			remoteInfo = "Pods-FSInteractiveMap";
+		};
+		DD477D8521805E22DF1DBE12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B977BEB39FE5487158AFF9D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA767EA2399CA51775E99B54;
+			remoteInfo = "Pods-ActionSheetPicker-3.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0224BFB78C574243596FCD98 /* SwipeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwipeView.m; path = SwipeView/SwipeView.m; sourceTree = "<group>"; };
+		04E9B11F4AE460DAE87AFA7C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		099519D06353A9D941B8656E /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		0CCFCFE284759A98BFC0DECB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		125C67B6B2F47D855C5C7D8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		17AFFF0A665EFB4088EDB069 /* Pods-FSInteractiveMap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSInteractiveMap-prefix.pch"; sourceTree = "<group>"; };
+		17B3D853A5EFAF6A7CF03DE8 /* FSSVG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSSVG.m; path = FSInteractiveMap/FSInteractiveMap/FSSVG/FSSVG.m; sourceTree = "<group>"; };
+		1B76E87FDD5674E8E3BEB865 /* Pods-ActionSheetPicker-3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionSheetPicker-3.0.xcconfig"; sourceTree = "<group>"; };
+		2681AAB7231BDD08B0D37BCA /* FSSVG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSSVG.h; path = FSInteractiveMap/FSInteractiveMap/FSSVG/FSSVG.h; sourceTree = "<group>"; };
+		290A144AEDE0A9B821B1C887 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		29541FA83C70C1AA0B697FFC /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		2E793AA4E42D15DF6FC770BE /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		344465056E537108D044A31F /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		35420585B15E0FD064805990 /* FSSVGPathElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSSVGPathElement.h; path = FSInteractiveMap/FSInteractiveMap/FSSVG/FSSVGPathElement.h; sourceTree = "<group>"; };
+		41E20859FEA1D6E205C12B43 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		446B7591DE56D684F4BB6EB2 /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		45CE9F04181D9FEECC7FBE74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4CE8298112FA89453412F3FA /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		4E09BEAF0506D321EA6D1CDB /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		4F385CE32FE7FA3152477B01 /* libPods-ActionSheetPicker-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ActionSheetPicker-3.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5F554B4CA6B94ED4CF7DAA /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		637D504A1DD0D9244EA3AC36 /* Pods-SwipeView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeView-Private.xcconfig"; sourceTree = "<group>"; };
+		664133AC0E73BCC4E6E42AB5 /* Pods-ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		6CE67F19B4798677D1B595A8 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		6E105F9AFF605A8942869C42 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		71D62A871DEA67C4ED2D49F6 /* Pods-FSInteractiveMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSInteractiveMap.xcconfig"; sourceTree = "<group>"; };
+		72CCB821CC9698B5242D6B63 /* Pods-FSInteractiveMap-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSInteractiveMap-Private.xcconfig"; sourceTree = "<group>"; };
+		8A567613083BEF35FC96C232 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D60E8322C652161F4422F0D /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		8F435C57457EAC1B3BF9C49C /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		92A7D07696B8C84341440CA9 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94E643E3E5E1C51E55EF6EEC /* FSSVGUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSSVGUtils.m; path = FSInteractiveMap/FSInteractiveMap/FSSVG/FSSVGUtils.m; sourceTree = "<group>"; };
+		9905C8FD7D5E684431BF9D7F /* FSInteractiveMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSInteractiveMapView.h; path = FSInteractiveMap/FSInteractiveMap/FSInteractiveMapView.h; sourceTree = "<group>"; };
+		A2B26C0B5D5F2090FFC84A8D /* FSSVGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSSVGUtils.h; path = FSInteractiveMap/FSInteractiveMap/FSSVG/FSSVGUtils.h; sourceTree = "<group>"; };
+		A2BA1670FB7E86A5EEE09920 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		A2BEC65410518EA4DC20002B /* Pods-ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		A4564DD5E32E028BEC429B0F /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		B19343F7E26D81AFE466813E /* FSSVGPathElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSSVGPathElement.m; path = FSInteractiveMap/FSInteractiveMap/FSSVG/FSSVGPathElement.m; sourceTree = "<group>"; };
+		C30EB4774ED3CC0A7125C2B2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		C332F9C265C5EA3466E0FEFB /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		C8708A90B134B2D6F85A840C /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		CE5DBFE5C15EA91F15569B85 /* Pods-SwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwipeView-prefix.pch"; sourceTree = "<group>"; };
+		D59B79B2B3D7E5C7D9A8A651 /* SwipeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwipeView.h; path = SwipeView/SwipeView.h; sourceTree = "<group>"; };
+		D9B4A91597BDA87C2950E157 /* Pods-FSInteractiveMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSInteractiveMap-dummy.m"; sourceTree = "<group>"; };
+		DD429E3D6C593C915C2F0A04 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		E2B301141415D6BB832A46BC /* libPods-SwipeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwipeView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77C64A2CF82017346CFF905 /* libPods-FSInteractiveMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSInteractiveMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7805020EFB596E9EF98211F /* Pods-SwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwipeView-dummy.m"; sourceTree = "<group>"; };
+		E9960FA7BB85B82D6EFEC38D /* FSInteractiveMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSInteractiveMapView.m; path = FSInteractiveMap/FSInteractiveMap/FSInteractiveMapView.m; sourceTree = "<group>"; };
+		ED4FF0CE5FDFAFA2D4D61C10 /* Pods-ActionSheetPicker-3.0-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionSheetPicker-3.0-Private.xcconfig"; sourceTree = "<group>"; };
+		EEFB07B32C8192920A2F665C /* Pods-SwipeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeView.xcconfig"; sourceTree = "<group>"; };
+		F1514D63E6B5003E788BCAEB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86242175A20713C0EBD897E /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		FA1EA964980E3C5D00D54C78 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		908F6313A92903F8085EB3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2AFFCB3EDCFC72E57F8FF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27A0E486BA13B68D18968B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1B91181E44E72F895E5BA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A572629C1259495BF8DB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D7D555E8B173E290052F95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B849A448906F21089AB235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E381ADCBC50FD44DD21175B8 /* Foundation.framework in Frameworks */,
+				ABDA62E1E0CD39469FA20AB4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012969B4EBF622EA3EA3F244 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92A7D07696B8C84341440CA9 /* Pods-acknowledgements.markdown */,
+				8A567613083BEF35FC96C232 /* Pods-acknowledgements.plist */,
+				A2BA1670FB7E86A5EEE09920 /* Pods-dummy.m */,
+				4F5F554B4CA6B94ED4CF7DAA /* Pods-environment.h */,
+				099519D06353A9D941B8656E /* Pods-resources.sh */,
+				0CCFCFE284759A98BFC0DECB /* Pods.debug.xcconfig */,
+				C30EB4774ED3CC0A7125C2B2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		27762E65FFE8D8D5BD55F2C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				012969B4EBF622EA3EA3F244 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2C281DAD6FE7141C34802CC6 /* FSInteractiveMap */ = {
+			isa = PBXGroup;
+			children = (
+				9905C8FD7D5E684431BF9D7F /* FSInteractiveMapView.h */,
+				E9960FA7BB85B82D6EFEC38D /* FSInteractiveMapView.m */,
+				2681AAB7231BDD08B0D37BCA /* FSSVG.h */,
+				17B3D853A5EFAF6A7CF03DE8 /* FSSVG.m */,
+				35420585B15E0FD064805990 /* FSSVGPathElement.h */,
+				B19343F7E26D81AFE466813E /* FSSVGPathElement.m */,
+				A2B26C0B5D5F2090FFC84A8D /* FSSVGUtils.h */,
+				94E643E3E5E1C51E55EF6EEC /* FSSVGUtils.m */,
+				97EE33E5A2EB7539DE5FA004 /* Support Files */,
+			);
+			path = FSInteractiveMap;
+			sourceTree = "<group>";
+		};
+		32BB0ED5C7F69B8BC4EB867A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC1E535A1B948B63632F1698 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E36088582FACE302805B8E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEFB07B32C8192920A2F665C /* Pods-SwipeView.xcconfig */,
+				637D504A1DD0D9244EA3AC36 /* Pods-SwipeView-Private.xcconfig */,
+				E7805020EFB596E9EF98211F /* Pods-SwipeView-dummy.m */,
+				CE5DBFE5C15EA91F15569B85 /* Pods-SwipeView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SwipeView";
+			sourceTree = "<group>";
+		};
+		78A79830BD3144DD0823B362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1514D63E6B5003E788BCAEB /* libPods.a */,
+				4F385CE32FE7FA3152477B01 /* libPods-ActionSheetPicker-3.0.a */,
+				E77C64A2CF82017346CFF905 /* libPods-FSInteractiveMap.a */,
+				E2B301141415D6BB832A46BC /* libPods-SwipeView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8410941C704ACDC863569E4E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B76E87FDD5674E8E3BEB865 /* Pods-ActionSheetPicker-3.0.xcconfig */,
+				ED4FF0CE5FDFAFA2D4D61C10 /* Pods-ActionSheetPicker-3.0-Private.xcconfig */,
+				664133AC0E73BCC4E6E42AB5 /* Pods-ActionSheetPicker-3.0-dummy.m */,
+				A2BEC65410518EA4DC20002B /* Pods-ActionSheetPicker-3.0-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		9049D8329250C3DA31FE21CA /* SwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				D59B79B2B3D7E5C7D9A8A651 /* SwipeView.h */,
+				0224BFB78C574243596FCD98 /* SwipeView.m */,
+				5E36088582FACE302805B8E3 /* Support Files */,
+			);
+			path = SwipeView;
+			sourceTree = "<group>";
+		};
+		97EE33E5A2EB7539DE5FA004 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71D62A871DEA67C4ED2D49F6 /* Pods-FSInteractiveMap.xcconfig */,
+				72CCB821CC9698B5242D6B63 /* Pods-FSInteractiveMap-Private.xcconfig */,
+				D9B4A91597BDA87C2950E157 /* Pods-FSInteractiveMap-dummy.m */,
+				17AFFF0A665EFB4088EDB069 /* Pods-FSInteractiveMap-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FSInteractiveMap";
+			sourceTree = "<group>";
+		};
+		AC1E535A1B948B63632F1698 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				45CE9F04181D9FEECC7FBE74 /* Foundation.framework */,
+				125C67B6B2F47D855C5C7D8D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BDEF8A12EA0C0F3191CC3A40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE0A7684A40AEEFD69D663 /* ActionSheetPicker-3.0 */,
+				2C281DAD6FE7141C34802CC6 /* FSInteractiveMap */,
+				9049D8329250C3DA31FE21CA /* SwipeView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0EE0A7684A40AEEFD69D663 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				FA1EA964980E3C5D00D54C78 /* AbstractActionSheetPicker.h */,
+				41E20859FEA1D6E205C12B43 /* AbstractActionSheetPicker.m */,
+				2E793AA4E42D15DF6FC770BE /* ActionSheetCustomPicker.h */,
+				C332F9C265C5EA3466E0FEFB /* ActionSheetCustomPicker.m */,
+				C8708A90B134B2D6F85A840C /* ActionSheetCustomPickerDelegate.h */,
+				290A144AEDE0A9B821B1C887 /* ActionSheetDatePicker.h */,
+				4CE8298112FA89453412F3FA /* ActionSheetDatePicker.m */,
+				29541FA83C70C1AA0B697FFC /* ActionSheetDistancePicker.h */,
+				F86242175A20713C0EBD897E /* ActionSheetDistancePicker.m */,
+				344465056E537108D044A31F /* ActionSheetLocalePicker.h */,
+				6CE67F19B4798677D1B595A8 /* ActionSheetLocalePicker.m */,
+				A4564DD5E32E028BEC429B0F /* ActionSheetPicker.h */,
+				6E105F9AFF605A8942869C42 /* ActionSheetStringPicker.h */,
+				4E09BEAF0506D321EA6D1CDB /* ActionSheetStringPicker.m */,
+				8F435C57457EAC1B3BF9C49C /* DistancePickerView.h */,
+				446B7591DE56D684F4BB6EB2 /* DistancePickerView.m */,
+				8D60E8322C652161F4422F0D /* SWActionSheet.h */,
+				DD429E3D6C593C915C2F0A04 /* SWActionSheet.m */,
+				8410941C704ACDC863569E4E /* Support Files */,
+			);
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		C5F814093E5920A9422ECD76 = {
+			isa = PBXGroup;
+			children = (
+				04E9B11F4AE460DAE87AFA7C /* Podfile */,
+				32BB0ED5C7F69B8BC4EB867A /* Frameworks */,
+				BDEF8A12EA0C0F3191CC3A40 /* Pods */,
+				78A79830BD3144DD0823B362 /* Products */,
+				27762E65FFE8D8D5BD55F2C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06917FDDF18856138111B386 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C932FDADE8B6491DAE0AB1 /* SwipeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80164DBF132698ED743F9548 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF1D1F9236E6D588C5A3851 /* FSInteractiveMapView.h in Headers */,
+				009D9D19FCD09312DB726A54 /* FSSVG.h in Headers */,
+				25A566A68607D50704D9AC6D /* FSSVGPathElement.h in Headers */,
+				4629264B09C5F2CC947BE55B /* FSSVGUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4E594E15C5EAC6CF818715 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC5080DFABBAA7A901AFDE9 /* AbstractActionSheetPicker.h in Headers */,
+				8BBE24ACF7F18D69E69D37BD /* ActionSheetCustomPicker.h in Headers */,
+				5075578898AD700EB1C60AF2 /* ActionSheetCustomPickerDelegate.h in Headers */,
+				67F12A07A10A62812A5588F3 /* ActionSheetDatePicker.h in Headers */,
+				ED09EBFBE4DB163E4B176281 /* ActionSheetDistancePicker.h in Headers */,
+				833F08BA4760E35D9469A350 /* ActionSheetLocalePicker.h in Headers */,
+				E73DFF7BC3621178670B061A /* ActionSheetPicker.h in Headers */,
+				BB89263864C63D1549FB97D6 /* ActionSheetStringPicker.h in Headers */,
+				89716F8D941129EAD822BA92 /* DistancePickerView.h in Headers */,
+				6941A16F9F56305358D0CF2E /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DEEA7B000DBA60F9C4135B4 /* Pods-FSInteractiveMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C1FEFB274B0D9A262F55F7 /* Build configuration list for PBXNativeTarget "Pods-FSInteractiveMap" */;
+			buildPhases = (
+				468D1D62DEE516AE03BDC5C0 /* Sources */,
+				F27A0E486BA13B68D18968B7 /* Frameworks */,
+				80164DBF132698ED743F9548 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FSInteractiveMap";
+			productName = "Pods-FSInteractiveMap";
+			productReference = E77C64A2CF82017346CFF905 /* libPods-FSInteractiveMap.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5A66F2CCF3EAC540F9EFE45A /* Pods-SwipeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC72D5B3AFFA7E45B696ED4 /* Build configuration list for PBXNativeTarget "Pods-SwipeView" */;
+			buildPhases = (
+				5E4B5C442D8C8156875837C6 /* Sources */,
+				F2A572629C1259495BF8DB36 /* Frameworks */,
+				06917FDDF18856138111B386 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwipeView";
+			productName = "Pods-SwipeView";
+			productReference = E2B301141415D6BB832A46BC /* libPods-SwipeView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA767EA2399CA51775E99B54 /* Pods-ActionSheetPicker-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292EE7C31BFB6FC8458D3D85 /* Build configuration list for PBXNativeTarget "Pods-ActionSheetPicker-3.0" */;
+			buildPhases = (
+				230B673393069B254E784008 /* Sources */,
+				F7B849A448906F21089AB235 /* Frameworks */,
+				DA4E594E15C5EAC6CF818715 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ActionSheetPicker-3.0";
+			productName = "Pods-ActionSheetPicker-3.0";
+			productReference = 4F385CE32FE7FA3152477B01 /* libPods-ActionSheetPicker-3.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C09ED2EA0487A6C5CF87A18F /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F236EB2CBD3EDB757955BD9 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				AE8C728F2D23D405FBE8FE6B /* Sources */,
+				908F6313A92903F8085EB3D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196BC33FE5C0F027E786A3F5 /* PBXTargetDependency */,
+				3F32A5E12AA17F64FF018685 /* PBXTargetDependency */,
+				DC0BC65026956D9C9BF0131B /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = F1514D63E6B5003E788BCAEB /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B977BEB39FE5487158AFF9D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 16B4BD09FC135070C2E7A201 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5F814093E5920A9422ECD76;
+			productRefGroup = 78A79830BD3144DD0823B362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C09ED2EA0487A6C5CF87A18F /* Pods */,
+				AA767EA2399CA51775E99B54 /* Pods-ActionSheetPicker-3.0 */,
+				0DEEA7B000DBA60F9C4135B4 /* Pods-FSInteractiveMap */,
+				5A66F2CCF3EAC540F9EFE45A /* Pods-SwipeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		230B673393069B254E784008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200603497D15AB9F1EFD4E37 /* AbstractActionSheetPicker.m in Sources */,
+				E9215C35443590CAB3576460 /* ActionSheetCustomPicker.m in Sources */,
+				049D3917325EE5297C241911 /* ActionSheetDatePicker.m in Sources */,
+				C4BA4C2B3CE05B294A992BE5 /* ActionSheetDistancePicker.m in Sources */,
+				1E11F041FDEEDE8D892046E0 /* ActionSheetLocalePicker.m in Sources */,
+				1E147D508835402FCC40B86E /* ActionSheetStringPicker.m in Sources */,
+				8A9992757C3B7A9A602D817B /* DistancePickerView.m in Sources */,
+				6EAE7A721A938109F38A252E /* Pods-ActionSheetPicker-3.0-dummy.m in Sources */,
+				88DC87985CCCAB551394FB01 /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468D1D62DEE516AE03BDC5C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EACDB2C442BAFACB0020B9B /* FSInteractiveMapView.m in Sources */,
+				F0FD20FC36451872B704508E /* FSSVG.m in Sources */,
+				6E44103D760157126370DAAE /* FSSVGPathElement.m in Sources */,
+				BF6D4F2081DF59792AA1C528 /* FSSVGUtils.m in Sources */,
+				39232305D548C380730D0D2F /* Pods-FSInteractiveMap-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4B5C442D8C8156875837C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F17CAAB48997DFA2D4765D /* Pods-SwipeView-dummy.m in Sources */,
+				3553DBD15719EE06C2E5FCD7 /* SwipeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8C728F2D23D405FBE8FE6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5425BADCE7840C79A38D13B5 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		196BC33FE5C0F027E786A3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ActionSheetPicker-3.0";
+			target = AA767EA2399CA51775E99B54 /* Pods-ActionSheetPicker-3.0 */;
+			targetProxy = DD477D8521805E22DF1DBE12 /* PBXContainerItemProxy */;
+		};
+		3F32A5E12AA17F64FF018685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FSInteractiveMap";
+			target = 0DEEA7B000DBA60F9C4135B4 /* Pods-FSInteractiveMap */;
+			targetProxy = 8B06713DBFCC351F963E6210 /* PBXContainerItemProxy */;
+		};
+		DC0BC65026956D9C9BF0131B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwipeView";
+			target = 5A66F2CCF3EAC540F9EFE45A /* Pods-SwipeView */;
+			targetProxy = 42A6AA5F99B396827D9C30CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24841BE02D5555B9883E5E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4FF0CE5FDFAFA2D4D61C10 /* Pods-ActionSheetPicker-3.0-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ActionSheetPicker-3.0/Pods-ActionSheetPicker-3.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2BB8933E7BF7A02F73E44BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CCFCFE284759A98BFC0DECB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4603BCD657DEB6BDEEED6E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72CCB821CC9698B5242D6B63 /* Pods-FSInteractiveMap-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FSInteractiveMap/Pods-FSInteractiveMap-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		48D1ACC4F2ACF085F67C9722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69F48DE0640C5781B0F11541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72CCB821CC9698B5242D6B63 /* Pods-FSInteractiveMap-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FSInteractiveMap/Pods-FSInteractiveMap-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		72E5BBABEB47DBD2DF8DC9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 637D504A1DD0D9244EA3AC36 /* Pods-SwipeView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SwipeView/Pods-SwipeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8BD86428D4E62EF3C1D90183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 637D504A1DD0D9244EA3AC36 /* Pods-SwipeView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SwipeView/Pods-SwipeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9258699FF041D9D29C25ACB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A212AD5EC3F522856A73F2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4FF0CE5FDFAFA2D4D61C10 /* Pods-ActionSheetPicker-3.0-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ActionSheetPicker-3.0/Pods-ActionSheetPicker-3.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E93E3D23458FA6D59C492EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30EB4774ED3CC0A7125C2B2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BC72D5B3AFFA7E45B696ED4 /* Build configuration list for PBXNativeTarget "Pods-SwipeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E5BBABEB47DBD2DF8DC9A4 /* Debug */,
+				8BD86428D4E62EF3C1D90183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F236EB2CBD3EDB757955BD9 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB8933E7BF7A02F73E44BBE /* Debug */,
+				E93E3D23458FA6D59C492EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B4BD09FC135070C2E7A201 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9258699FF041D9D29C25ACB4 /* Debug */,
+				48D1ACC4F2ACF085F67C9722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292EE7C31BFB6FC8458D3D85 /* Build configuration list for PBXNativeTarget "Pods-ActionSheetPicker-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A212AD5EC3F522856A73F2CB /* Debug */,
+				24841BE02D5555B9883E5E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C1FEFB274B0D9A262F55F7 /* Build configuration list for PBXNativeTarget "Pods-FSInteractiveMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F48DE0640C5781B0F11541 /* Debug */,
+				4603BCD657DEB6BDEEED6E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B977BEB39FE5487158AFF9D9 /* Project object */;
+}
